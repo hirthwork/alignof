@@ -4,8 +4,9 @@
 namespace NAlignOf
 {
     template <class TType>
-    struct TSizeIncrement: TType
+    struct TSizeIncrement
     {
+        TType Holder;
         char Increment;
     };
 
